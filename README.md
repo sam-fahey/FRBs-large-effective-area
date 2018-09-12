@@ -11,5 +11,5 @@ Two tests are performed.
 ## Environment for reproduction by IceCube members
 Python version: eval `/cvmfs/icecube.opensciencegrid.org/py2-v2/setup.sh`
 
-ENV: /data/user/sfahey/workspace/icerec_V05-00-06/build/env-shell.sh
+ENV: `/data/user/sfahey/workspace/icerec_V05-00-06/build/env-shell.sh`
 
