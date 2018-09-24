@@ -1,6 +1,5 @@
 from topocentering import *
-from datetime import datetime
-from datetime import timedelta
+from datetime import datetime, timedelta
 import pickle
 
 icecube = observer( np.radians(0.), np.radians(-90.), 2835 )
