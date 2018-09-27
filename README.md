@@ -13,3 +13,6 @@ Python version: eval `/cvmfs/icecube.opensciencegrid.org/py2-v2/setup.sh`
 
 ENV: `/data/user/sfahey/workspace/icerec_V05-00-06/build/env-shell.sh`
 
+## Source list extraction
+http://frbcat.org provides the most up-to-date list of verified FRB detections (credit to Petroff et al. 2016). csv_reader.py is built to convert the exportable CSV file from FRBcat into a pickled dictionary that GRBLLH interprets as a source list.
+
