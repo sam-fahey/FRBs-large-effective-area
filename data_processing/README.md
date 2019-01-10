@@ -2,5 +2,5 @@
 
 
 
-![sadf](images/method_comparison.pdf)
+![sadf](images/method_comparison.PNG)
 ![sadf](images/forest_evaluation.pdf)
