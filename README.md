@@ -1,6 +1,7 @@
 # FRBs-large-effective-area
 
 This repository contains the software I used to perform an analysis in search of correlation of neutrino data with 28 fast radio bursts (all non-repeating bursts detected between 2011 and mid-2018). Information useful for reproduction or review by IceCube members is available after the list of contents. Publication in progress.
+***
 
 ## Contents
 
