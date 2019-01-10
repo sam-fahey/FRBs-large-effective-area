@@ -24,8 +24,10 @@ This repository contains the software I used to perform an analysis in search of
 
 ## python_software
 
-`python_software/` contains the bulk of the python framework I use to perform transient analyses with IceCube. Much of the code was written by previous students between 2008 and 2010 for studies of gamma-ray bursts; but when I began using it for different source classes, more functionality was needed. I have continuously debugged or made additions to the contained files.
-
+`python_software/` contains the bulk of the python framework I use to perform transient analyses with IceCube. Much of the code was written by previous students between 2008 and 2010 for studies of gamma-ray bursts; but when I began using it for different source classes, more functionality was needed. I have continuously debugged or made additions to the contained files, for example:
+* Added seasonal variation to background estimators in `pdf.py`
+* Debugged `observed_time_windows` functions in `llh.py`
+* Wrote code that alters method of test statistic calculation for very large numbers of contributing events (>1e6)
 
 # Analysis information
 
