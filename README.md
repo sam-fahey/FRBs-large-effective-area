@@ -1,5 +1,4 @@
 # FRBs-large-effective-area
-Testing..
 
 These scripts conduct an analysis searching for neutrino emission from fast radio bursts (FRBs). 28 bursts are included -- all non-repeating bursts from 2011 to mid-2018.
 
@@ -17,4 +16,4 @@ ENV: `/data/user/sfahey/workspace/icerec_V05-00-06/build/env-shell.sh`
 ## Source list extraction
 http://frbcat.org provides the most up-to-date list of verified FRB detections (credit to Petroff et al. 2016). csv_reader.py is built to convert the exportable CSV file from FRBcat into a pickled dictionary that GRBLLH interprets as a source list.
 
-![Map of FRB detections in IceCube analyses](skymap.png)
+![Map of FRB detections in IceCube analyses](source_processing/skymap.png)
