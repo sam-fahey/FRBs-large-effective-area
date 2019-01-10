@@ -3,4 +3,4 @@
 
 
 ![sadf](images/method_comparison.PNG)
-![sadf](images/forest_evaluation.pdf)
+![sadf](images/forest_evaluation.PNG)
