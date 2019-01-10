@@ -1,6 +1,33 @@
 # FRBs-large-effective-area
 
-These scripts conduct an analysis searching for neutrino emission from fast radio bursts (FRBs). 28 bursts are included -- all non-repeating bursts from 2011 to mid-2018.
+This repository contains the software I used to perform an analysis in search of correlation of neutrino data with 28 fast radio bursts (all non-repeating bursts detected between 2011 and mid-2018). Information useful for reproduction or review by IceCube members is available after the list of contents. Publication in progress.
+
+## data_processing
+
+`data_processing/` contains scripts that retrieve and prepare IceCube data for analysis:<br>
+* Read and process IceCube's data structures
+* Perform event selection and save final arrays
+* Perform random forest regression to estimate event-wise angular uncertainty
+* Reduce memory usage of data for building probability distribution functions
+
+## mc_processing
+
+`mc_processing/` contains scripts for preparation of analysis MC -- Monte Carlo simulated events.
+
+## source_processing
+
+`source_processing/` contains scripts that convert FRBcat's source CSV into a format readable for analysis and performs topocentric corrections on burst times for millisecond-scale transient studies.
+
+## analysis_scripts
+
+`analysis_scripts/` contains scripts that perform background (control) trials and signal-injection trials for the max-burst and stacking tests. DAGMANs are included ([DAGMan](https://research.cs.wisc.edu/htcondor/dagman/dagman.html) is a job scheduler for University of Wisconsin's distributed computing platform).
+
+## python_software
+
+`python_software/` contains the bulk of the python framework I use to perform transient analyses with IceCube. Much of the code was written by previous students between 2008 and 2010 for studies of gamma-ray bursts; but when I began using it for different source classes, more functionality was needed. I have continuously debugged or made additions to the contained files.
+
+
+# Analysis information
 
 Two tests are performed.
 
